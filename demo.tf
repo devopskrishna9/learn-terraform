@@ -1,3 +1,0 @@
-output demo {
-  value = "hello"
-}
