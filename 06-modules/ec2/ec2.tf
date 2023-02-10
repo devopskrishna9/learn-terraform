@@ -4,6 +4,6 @@ resource "aws_instance" "web" {
   vpc_security_group_ids = [var.security_group_id]
 
   tags = {
-    Name = "demo-centos8"
+    Name = "demo1-centos8"
   }
 }
