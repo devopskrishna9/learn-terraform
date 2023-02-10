@@ -9,7 +9,7 @@ module "ec2" {
 
 terraform {
   backend "s3" {
-    bucket = "terraform-b70"
+    bucket = "terraform-brk"
     key    = "06-modules/terraform.tfstate"
     region = "us-east-1"
   }
