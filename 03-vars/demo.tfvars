@@ -1,1 +1,1 @@
-demo1 = "Hello Universe"
+demo1 = "Hello world"
