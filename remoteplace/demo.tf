@@ -20,7 +20,7 @@ resource "aws_instance" "web" {
 terraform {
   backend "s3" {
     bucket = "terraform-brk"
-    key    = "remoteplace/terraform.tfstate"
+    key = "remoteplace/terraformex.tfstate"
     region = "us-east-1"
   }
 }
