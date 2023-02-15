@@ -17,7 +17,7 @@ output "private_ip" {
 }
 
 data "aws_instance" "foo" {
-  instance_id = "i-06e2e6e79c3ee2917"
+  instance_id = "i-0794082c5f0fc9956"
 }
 
 provider "aws" {
