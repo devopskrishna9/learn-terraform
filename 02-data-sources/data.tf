@@ -20,6 +20,6 @@ data "aws_instance" "foo" {
   instance_id = "i-0794082c5f0fc9956"
 }
 
-provider "aws" {
-  region = "us-east-1"
-}
+#provider "aws" {
+#  region = "us-east-1"
+#}
